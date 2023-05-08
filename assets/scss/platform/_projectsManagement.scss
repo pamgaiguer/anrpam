@@ -1,0 +1,251 @@
+#navbar-projects-management{
+  #links-right li a span .badge {
+    margin-left: -10px;
+    margin-top: -5px;
+  }
+  .dripicons-folder:before{
+    padding-right: 5px;
+  }
+}
+.projects-list{
+  padding-top: 40px;
+  .table{
+    thead{
+      tr{
+        th{
+          border-bottom: none;
+          font-size: 10px;
+          font-weight: 700;
+          color:$gray-dark;
+          text-transform: uppercase;
+          vertical-align: middle;
+          padding: 15px;
+
+          &:nth-child(2){
+            padding: 0;
+          }
+        }
+      }
+    }
+    tbody{
+      tr{
+        background: white;
+        border-bottom: 2px solid #e8e8e8;
+        margin-bottom: 20px;
+        height: 75px;
+        padding: 15px;
+
+        td{
+          border-top: none;
+          vertical-align: middle;
+          padding: 15px;
+
+          &:first-child{
+            padding: 0;
+            .dripicons-dots-3 {
+              -webkit-transform: rotate(-90deg);
+              -moz-transform: rotate(-90deg);
+              -ms-transform: rotate(-90deg);
+              -o-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+              display: inline-block;
+              color: $gray-lighter;
+            }
+          }
+
+          &:nth-child(2) .icon{
+            padding: 0;
+            margin-left: -15px;
+            background-color: $white-number;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 34px;
+            color: $gray-dark;
+            width: 36px;
+            height: 36px;
+            display: inline-block;
+            font-size: 16px;
+            //padding-top: 9px; --> para colocar em produção
+
+            &.yellow-quest{
+              background-color: $yellow-dash;
+              color: white;
+            }
+
+            &.purple-geoloc{
+              background-color: $purple-dash;
+              color: white;
+            }
+
+            &.blue-feedback{
+              background-color: $blue-dash;
+              color: white;
+            }
+          }
+
+          &:nth-child(3){
+            color: $black-medium;
+            font-size: 15px;
+            font-weight: 400;
+          }
+
+          &:nth-child(3) a{
+            color: $black-medium;
+            font-size: 15px;
+            font-weight: 400;
+          }
+
+          &:nth-child(4){
+            color: $gray-dark;
+            font-size: 12px;
+            font-weight: 400;
+
+            span{
+              display: inline-block;
+              background-color: $white-number;
+              border-radius: 6px;
+              padding: 5px;
+              width: 90px;
+              height: 28px;
+              line-height: 15px;
+              text-align: center;
+              border-top-left-radius: 100px;
+              border-top-right-radius: 100px;
+              border-bottom-left-radius: 100px;
+              border-bottom-right-radius: 100px;
+
+              .icon-circle{
+                background-color: $green-dash;
+                display: inherit;
+                width: 12px;
+                height: 12px;
+                vertical-align: middle;
+                text-indent: 9999px;
+                border-radius: 100%;
+                margin-right: 10px;
+              }
+            }
+          }
+
+          &:nth-child(5){
+            color: $gray-dark;
+            font-size: 10px;
+          }
+
+          &:nth-child(6){
+            span{
+              color: $black-medium;
+              font-size: 12px;
+              font-weight: 700;
+            }
+          }
+
+          &:nth-child(7){
+            a{
+              display: inline-block;
+              margin-right: 20px;
+              color: $gray-lighter;
+
+              &:hover{
+                color: $dark;
+                cursor: pointer;
+              }
+            }
+            ul li a{
+              margin-right: 0;
+              margin-left: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 750px) and (max-width: 1000px){
+  #navbar-projects-management {
+    max-height: 150px;
+    min-height: 150px;
+
+    #page-content-wrapper {
+      padding-top: 215px;
+    }
+
+    #links-right{
+      li{
+        display: inline-block;
+      }
+      .notification-bell {
+        float: right;
+      }
+
+      li a span .badge {
+        margin-left: -10px;
+        margin-top: -5px;
+      }
+    }
+  }
+  body .dropdown-menu{
+    margin-top: 16px !important;
+    left: -160px;
+    border:none;
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+    box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+    font-size: 10px;
+    font-weight: 900;
+
+    li{
+      a{
+        color: $gray-dark;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: 900;
+
+        &:hover, &:focus{
+          color: $dark;
+        }
+      }
+      [class^="dripicons-"]:before,
+      [class*=" dripicons-"]:before{
+        font-size: 10px;
+        padding-right: 5px;
+        font-weight: 900;
+      }
+    }
+  }
+}
+@media (min-width: 1001px) and (max-width: 1059px){
+  body #page-content-wrapper {
+    padding-top: 100px;
+  }
+
+  #navbar-projects-management {
+    max-height: 120px;
+    min-height: 120px;
+
+    #links-right{
+      li{
+        display: inline-block;
+      }
+      .notification-bell {
+        float: right;
+      }
+
+      li a span .badge {
+        margin-left: -10px;
+        margin-top: -5px;
+      }
+    }
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+  #navbar-projects-management {
+    max-height: 60px;
+    min-height: 60px;
+  }
+  .projects-list {
+    padding-top: 0px;
+    margin-top: -60px;
+  }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){}

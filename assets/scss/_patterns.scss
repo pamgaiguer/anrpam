@@ -1,0 +1,194 @@
+@import 'lato';
+
+$blue-regular: #5488C7;
+$blue-light: #69ACDF;
+$blue-light-hover: #62A6D9;
+$blue-dark: #3BAFDA;
+$blue-lighter: #4FC1E9;
+$blue-button: #5087C7;
+
+$purple-regular: #8968AA;
+$purple-light: #9560A4;
+$purple-dark: #8867A9;
+$purple-lighter: #B4A3E5;
+$purple-button: #7F61A7;
+
+$red-regular: #E9573F;
+$red-dash: #F57156;
+
+$yellow-regular: #F6BB43;
+$yellow-light: #FFCE54;
+
+$fucsia-regular: #c168AC;
+$fucsia-light: #D685C7;
+
+$green-dash: #53D3B2;
+$blue-dash: #4FC1E9;
+$bordo-dash: #F46F7D;
+$yellow-dash: #FFCE54;
+$purple-dash: #6D537A;
+$salmon-dash: #F5B378;
+
+$yellow-graph: #FFD377;
+$yellow-graph-shadow: #E5BE6B;
+$blue-graph: #02BDDE;
+$blue-graph-shadow: #02A7C4;
+$green-graph: #63CFA2;
+$green-graph-shadow: #57B58E;
+$red-graph: #E4776B;
+$red-graph-shadow: #CA6A5F;
+$purple-graph: #A17EE9;
+$purple-graph-shadow: #8F70CF;
+
+$gray-dark: #9C9CA2;
+$gray-light: #80848C;
+$gray-number: #676A73;
+$gray-lighter: #D8D8D8;
+$gray-regular: #A4B0B2;
+$gray-light-2: #F4F3F9;
+$gray-light-3: #B0B0B0;
+
+$brown-dark: #A3897A;
+$brown-regular: #caba9f;
+
+$white: #FFF;
+$white-light: #FAFAFA;
+$white-number: #F2F2F2;
+$white-dark: #F5F5F5;
+$white-dark3: #F6F6F6;
+$white-tabs: #EAEAEA;
+$black: #000;
+$black-light: #303030;
+$dark: #373D49;
+$black-medium: #464C58;
+
+$font-stack: 'Lato', 'Trebuchet', 'Arial', sans-serif;
+
+//cores
+.blue-regular{
+  color: $blue-regular;
+}
+.blue-light{
+  color: $blue-light;
+}
+.blue-button{
+  color: $blue-button;
+}
+.gray-dark{
+  color: $gray-dark !important;
+}
+.gray-lighter{
+  color: $gray-lighter !important;
+}
+.black{
+  color: black;
+}
+.black-light{
+  color: $black-light;
+}
+.black-medium{
+  color: $black-medium;
+}
+.white{
+  color: white;
+}
+.bg-white-light{
+  background-color: #FAFAFA;
+}
+.bg-white-dark{
+  background-color: #F5F5F5;
+}
+.bg-blue-dash{
+  background-color: $blue-dash;
+}
+.bg-yellow-dash{
+  background-color: $yellow-dash;
+}
+.bg-purple-dash{
+  background-color: $purple-dash;
+}
+.bg-green-dash{
+  background-color: $green-dash !important;
+}
+.bg-bordo-dash{
+  background-color: $bordo-dash;
+}
+.bg-red-dash{
+  background-color: $red-dash !important;
+}
+.red-dash{
+  color: $red-dash !important;
+}
+.green-dash{
+  color: $green-dash !important;
+}
+
+.font-light{
+  font-weight: 300;
+}
+.font-regular{
+  font-weight: 400;
+}
+.font-medium{
+  font-weight: 500;
+}
+.font-semibold{
+  font-weight: 600;
+}
+.font-bold{
+  font-weight: 700;
+}
+.font-extrabold{
+  font-weight: 800;
+}
+.font-black{
+  font-weight: 900;
+}
+.font-italic{
+  font-style: italic !important;
+}
+.font-10{
+  font-size: 10px;
+}
+.font-12{
+  font-size: 12px;
+}
+.font-14{
+  font-size: 14px;
+}
+.font-15{
+  font-size: 15px;
+}
+.line-height-15{
+  line-height: 1.5;
+}
+.font-16{
+  font-size: 16px;
+}
+.font-17{
+  font-size: 17px;
+}
+.line-17{
+  line-height: 17px;
+}
+.font-18{
+  font-size: 18px;
+}
+.font-20{
+  font-size: 20px;
+}
+.font-26{
+  font-size: 26px;
+}
+.font-30{
+  font-size: 30px;
+}
+.font-40{
+  font-size: 40px;
+}
+.font-46{
+  font-size: 46px;
+}
+.font-50{
+  font-size: 50px;
+}

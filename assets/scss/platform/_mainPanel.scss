@@ -1,0 +1,353 @@
+.main-panel {
+  padding-top: 40px;
+
+  [class^='dripicons-']:before,
+  [class*=' dripicons-']:before {
+    padding-right: 10px;
+  }
+
+  .panel-body {
+    padding: 30px;
+
+    .jumbotron {
+      background: $white-dark3;
+
+      h1 {
+        font-size: 30px;
+        font-weight: 300;
+        margin: 0;
+      }
+
+      h4 {
+        font-size: 15px;
+        margin: 0;
+      }
+    }
+
+    .icon-verified {
+      display: inline-block;
+      text-indent: -9999px;
+      background-image: url('../img/dashboard/ic_certf.png');
+      background-repeat: no-repeat;
+      width: 21px;
+      height: 20px;
+      margin-left: 5px;
+    }
+  }
+
+  .last-projects {
+    // height: 375px;
+    // max-height: 375px;
+    background: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+    box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+
+    padding: 10px;
+
+    input {
+      margin: 5px 0;
+    }
+    .margin-top-15px {
+      margin-top: 15px;
+    }
+
+    .table {
+      empty-cells: hide;
+
+      thead {
+        tr {
+          th {
+            font-size: 10px;
+            font-weight: 700;
+            color: $black-medium;
+            text-transform: uppercase;
+            vertical-align: middle;
+            padding: 15px 30px;
+          }
+        }
+      }
+
+      tbody {
+        tr {
+          td {
+            padding: 15px 30px;
+            border-top: 1px dashed $gray-lighter;
+            color: $black-medium;
+            font-size: 15px;
+            font-weight: 400;
+            vertical-align: middle;
+
+            &:nth-child(2) {
+              .format {
+                display: inline-block;
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: capitalize;
+                color: white;
+                border-radius: 6px;
+                padding: 6px 15px;
+                line-height: 20px;
+                text-align: center;
+                border-top-left-radius: 100px;
+                border-top-right-radius: 100px;
+                border-bottom-left-radius: 100px;
+                border-bottom-right-radius: 100px;
+              }
+
+              .format-feedback {
+                display: inline-block;
+                font-size: 12px;
+                font-weight: 700;
+                text-transform: capitalize;
+                color: white;
+                border-radius: 6px;
+                padding: 6px 15px;
+                line-height: 20px;
+                text-align: center;
+                border-top-left-radius: 100px;
+                border-top-right-radius: 100px;
+                border-bottom-left-radius: 100px;
+                border-bottom-right-radius: 100px;
+              }
+            }
+
+            &:nth-child(3) {
+              text-align: center;
+
+              .circle {
+                background-color: $gray-light;
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                vertical-align: middle;
+                text-indent: 9999px;
+                border-radius: 100%;
+                margin-right: 15px;
+              }
+            }
+
+            &:nth-child(4) {
+              font-size: 12px;
+              font-weight: 400;
+              color: $gray-light-3;
+            }
+
+            &:nth-child(5) {
+              a {
+                &:hover,
+                &:focus {
+                  cursor: pointer;
+                }
+              }
+
+              .list-unstyled {
+                display: inline-block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .questionnary-library {
+    .panel {
+      border-radius: 0;
+      border: none;
+      -webkit-box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+      box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+    }
+
+    .jumbotron {
+      margin-bottom: 20px;
+    }
+
+    .form-filter-search {
+      label {
+        font-size: 12px;
+        font-weight: 400;
+      }
+      .quest-select {
+        width: 300px;
+      }
+
+      .quest-select,
+      input[type='search'] {
+        height: 34px;
+      }
+
+      .quest-select,
+      button {
+        margin-left: 10px;
+      }
+
+      .search-field {
+        margin-top: 0;
+      }
+    }
+
+    .tags {
+      margin: 0;
+
+      ul {
+        li {
+          background-color: $white-number;
+          border: 1px solid $white-number;
+          margin-right: 5px;
+          margin-top: 10px;
+          font-size: 10px;
+          font-weight: 700;
+          padding: 5px 10px;
+          text-transform: uppercase;
+
+          &:hover {
+            cursor: pointer;
+            outline: none;
+          }
+
+          a {
+            color: $gray-dark;
+
+            &:hover,
+            &:focus {
+              color: $dark !important;
+              cursor: pointer;
+              outline: none;
+            }
+
+            &:visited {
+              color: $gray-dark;
+            }
+          }
+
+          .close {
+            span {
+              padding-left: 10px;
+              vertical-align: middle;
+            }
+          }
+        }
+      }
+    }
+
+    .quest-panel {
+      .thumbnail {
+        background-color: transparent;
+        border: none;
+
+        .icon-verified {
+          display: inline-block;
+          text-indent: -9999px;
+          background-image: url('../img/dashboard/ic_certf.png');
+          background-repeat: no-repeat;
+          width: 21px;
+          height: 20px;
+          margin-left: 5px;
+        }
+
+        .caption {
+          color: $black-medium;
+          padding: 0;
+
+          h3 {
+            font-weight: 700;
+            font-size: 15px;
+            margin: 0;
+            margin-top: 30px;
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 15px;
+            margin: 0;
+          }
+
+          .links {
+            [class^='dripicons-']:before,
+            [class*=' dripicons-']:before {
+              padding-right: 0px;
+            }
+
+            a {
+              font-size: 10px;
+              font-weight: 900;
+
+              &:nth-child(1) {
+                color: $blue-light;
+                text-transform: uppercase;
+              }
+
+              &:nth-child(2) {
+              }
+
+              &:nth-child(3) {
+                &:hover,
+                &:focus {
+                  cursor: pointer;
+                }
+              }
+
+              &:nth-child(5) {
+                padding-left: 10px;
+                padding-right: 10px;
+
+                &:hover,
+                &:focus {
+                  cursor: pointer;
+                }
+              }
+            }
+
+            .separate {
+              color: $gray-lighter;
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+
+    .paginator {
+      .pagination {
+        > li {
+          > a,
+          > span {
+            border: none;
+            color: $gray-dark;
+            background-color: white;
+            font-size: 12px;
+            font-weight: 700;
+          }
+        }
+      }
+
+      .pagination {
+        margin: 30px 0 0 0;
+
+        > .active {
+          > a,
+          > span {
+            &:hover,
+            &:focus {
+              color: $blue-light;
+              font-weight: 700;
+              background-color: transparent;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    margin-top: -30px;
+    padding-top: 0;
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    padding-top: 60px;
+  }
+}

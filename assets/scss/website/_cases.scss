@@ -1,0 +1,83 @@
+#cases-page{
+  background-color: $white-dark;
+
+  #header{
+    min-height: 0;
+    padding: 100px 0 0px;
+
+    h2{
+      margin-top: 115px;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 300;
+    }
+  }
+
+  #cases{
+    h2, h4{
+      margin: 0;
+    }
+
+    .panel{
+      border-radius: 0;
+
+      .panel-footer{
+        padding: 0;
+        background-color: white;
+        border-top: none;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        position: absolute;
+        bottom: 60px;
+      }
+    }
+
+    .case-card{
+      background: $white;
+      border: none;
+      box-shadow: 0 2px 0 0 #E1E0E0;
+      padding: 40px;
+      height: 550px;
+    }
+
+    .case-img{
+      margin-top: -95px;
+      margin-bottom: 40px;
+    }
+    .case-title{
+      font-size: 25px;
+      font-weight: 300;
+      margin-bottom: 40px;
+    }
+    .case-text{
+      font-size: 15px;
+      font-weight: 400;
+      padding-bottom: 100px;
+      line-height: 150%;
+    }
+    .case-link{
+      color: $blue-light;
+      font-size: 15px;
+      font-weight: 400;
+
+      &:hover, &:focus, &:active{
+        text-decoration: none;
+        color: $blue-light;
+      }
+    }
+  }
+  @media (min-width: 1px) and (max-width: 767px){
+    #cases {
+      .case-card{
+        margin-top: 75px;
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px){
+    #cases {
+      .case-card{
+        margin-top: 75px;
+      }
+    }
+  }
+}

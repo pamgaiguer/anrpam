@@ -1,0 +1,24 @@
+@import 'base.scss';
+@import 'nouislider/nouislider.scss';
+@import 'mm-radio-toggle-checkbox/mm-radio-toggle-checkbox.scss';
+@import 'jqcloud/jqcloud.min.scss';
+// @import 'jstree/themes/default/jstree.scss';
+@import 'platform/_mainStyles.scss';
+@import 'platform/_index.scss';
+@import 'platform/_questionnaireEditor.scss';
+@import 'platform/_projectsManagement.scss';
+@import 'platform/_mainPanel.scss';
+@import 'platform/_resumeEditor.scss';
+@import 'platform/_collectorsEditor.scss';
+@import 'platform/_collectorsDetailsEditor.scss';
+@import 'platform/_accountDetails.scss';
+@import 'platform/_resultsEditor.scss';
+@import 'platform/_errorpage.scss';
+
+body {
+  font-size: 15px;
+}
+
+.page-content {
+  padding-top: 30px;
+}

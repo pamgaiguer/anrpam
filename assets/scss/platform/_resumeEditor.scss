@@ -1,0 +1,176 @@
+
+.resume-page{
+  padding-top: 40px;
+  margin: 0;
+
+  .progress{
+    margin-bottom: 15px;
+  }
+
+  .progress-bar {
+    background-color: $green-dash;
+  }
+
+  .project-resume{
+    background: white;
+    padding: 30px;
+    margin-left: -15px;
+    padding-bottom: 100px;
+
+    .btn-blue-dash{
+      margin-left: 20px;
+    }
+
+    p{
+      margin: 0;
+      margin-top: 15px;
+    }
+    h3{
+      margin: 0;
+      margin-bottom: 30px;
+    }
+
+    .project-resume-label{
+      font-size: 10px;
+      font-weight: 700;
+      color: $black-medium;
+      text-transform: uppercase;
+    }
+
+    .format{
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: capitalize;
+      color: white;
+      border-radius: 6px;
+      padding: 5px;
+      width: 115px;
+      height: 28px;
+      line-height: 20px;
+      text-align: center;
+      border-top-left-radius: 100px;
+      border-top-right-radius: 100px;
+      border-bottom-left-radius: 100px;
+      border-bottom-right-radius: 100px;
+    }
+
+    .name-project{
+      &:read-write:focus{
+        outline: none;
+        color: $gray-light !important;
+      }
+    }
+
+    .project-resume-dates{
+      a{
+        color: $blue-light;
+        font-size: 15px;
+        font-weight: 700;
+
+        .icon{
+          margin-left: 10px;
+        }
+      }
+    }
+    .btn-action{
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .project-resume-blocks{
+    padding: 30px;
+    margin: 0;
+
+    .dripicons-preview:before{
+      font-size: 22px;
+    }
+
+    .panel{
+      border-radius: 0;
+      -webkit-box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+      box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+
+      .panel-title{
+        margin-top: 5px;
+
+        .switch{
+          margin-top: 5px;
+          display: inline-block;
+
+          .switch-label{
+            padding-left: 50px;
+            font-size: 10px;
+            font-weight: 700;
+            color: $black-medium;
+            text-transform: uppercase;
+
+            &:hover{
+              cursor: pointer;
+            }
+          }
+
+          .slider{
+            &:before {
+              top: 2px;
+            }
+          }
+        }
+      }
+
+      .panel-heading{
+        .icons-title{
+          a{
+            color: $gray-dark;
+
+            &:visited{
+              color: $gray-dark;
+            }
+
+            &:hover, &:focus{
+              color: $dark;
+            }
+
+            [class^="dripicons-"]:before,
+            [class*=" dripicons-"]:before{
+              padding-right: 10px;
+            }
+          }
+        }
+      }
+    }
+    .panel-default{
+      border-color: $white-light;
+
+      & > .panel-heading {
+        color: #333333;
+        -webkit-box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+        box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+        background-color: $white-light;
+        border-color: $white-light;
+      }
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    #page-content-wrapper {
+      padding-top: 100px;
+    }
+    #navbar-editor {
+      max-height: 60px;
+      min-height: 60px;
+
+      #links-right{
+        .nav-border-left, .nav-border-right{
+          display: none;
+        }
+        .notification-bell{
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  }
+}

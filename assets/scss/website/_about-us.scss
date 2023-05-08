@@ -1,0 +1,158 @@
+#about-us-page{
+
+  #main-header{
+    background-color: $white;
+    min-height: 0;
+    padding: 100px 0 0px;
+
+    h2{
+      margin-top: 115px;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 300;
+      margin-bottom: 50px;
+    }
+    h4{
+      text-align: center;
+      font-weight: 400;
+      font-size: 17px;
+      margin-bottom: 110px;
+      line-height: 150%;
+    }
+  }
+
+  #description{
+    background-color: $white-dark;
+    min-height: 0;
+    padding: 120px 0 0px;
+
+    h2{
+      margin-top: 0;
+      font-weight: 300;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    h4{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 150%;
+    }
+    .description-text{
+      width: 440px;
+    }
+    .description-img{
+      margin-left: 60px;
+    }
+  }
+
+  #members{
+    background-color: $white-dark;
+    min-height: 0;
+    padding: 150px 0 80px;
+    border-bottom: 1px solid rgba(232, 232, 232, 0.8);
+
+    h2{
+      font-weight: 300;
+      font-size: 30px;
+    }
+    h4{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 120%;
+    }
+
+    .thumbnail{
+      border-radius: 0;
+      border: none;
+      box-shadow: 0 2px 0 0 #E1E0E0;
+      padding: 0;
+      color: $black-medium;
+      height: 570px;
+
+
+      .caption{
+        padding: 0 30px 20px 30px;
+      }
+      .func-title{
+        font-size: 25px;
+        font-weight: 300;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom:5px;
+      }
+      .func-function{
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 400;
+      }
+      .func-description{
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .func-linkedin-ico{
+        position: absolute;
+        bottom: 25px;
+
+        a{
+          color: $gray-dark;
+        }
+      }
+    }
+  }
+
+  #media-blog{
+    background-color: $white-light;
+    min-height: 0;
+    padding: 60px 0 80px;
+
+    .title-section{
+      font-weight: 300;
+      font-size: 20px;
+    }
+
+    .post{
+      img{
+        max-width: 220px;
+        max-height: 134px;
+      }
+      h4{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+      }
+      .date, .comments{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+      }
+    }
+    .blog-info {
+      max-width: 190px;
+    }
+  }
+
+  @media (min-width: 1px) and (max-width: 767px){
+    #description{
+      .description-text {
+        width: 330px;
+      }
+      .description-img{
+        margin-left: 5px;
+      }
+    }
+  }
+  @media (max-width: 990px){
+    #members {
+      .thumbnail {
+        height: auto !important;
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px){}
+}

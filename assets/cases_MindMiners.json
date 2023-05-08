@@ -1,0 +1,35 @@
+{
+  "empresas": [
+    {
+      "nomeEmpresa":"Easy Taxi",
+      "industria":"Aplicativos",
+      "setor": "Serviços",
+      "objetivoPesquisa": "Entender a adesao e utilizacao de aplicativos de taxi no Brasil.",
+      "data": "09 de junho de 2014",
+      "duracaoPeriodoColeta":"5 dias",
+      "numeroQuestoes":"10",
+      "numeroRespostas":"507",
+      "perfilRespondentes":"Maiores de 21 anos",
+      "descricaoPesquisa":"A Easy Taxi utilizou a plataforma de pesquisas da MindMiners com o intuito de aprofundar seu conhecimento
+      sobre o perfil dos usuários que utilizam aplicativos para chamar taxis no Brasil.
+      Com os resultados da pesquisa foi possível identificar como as pessoas que utilizam taxi chamam um veículo até o ponto de origem da viagem, quais características,
+      valorizam no serviços e quais vantagens veem em aplicativos de taxis. Todas as respostas foram segmentadas de acordocom os perfis de amostra que a MindMiners oferece
+      (idade, gênero, classe social e região do Brasil)."
+    },
+    {
+      "nomeEmpresa":"Men's Market",
+      "industria":"Bens de Consumo / E-commerce",
+      "setor": "Varejo",
+      "objetivoPesquisa": "Entender como os homens encaram hábitos de compra de produtos de barbear pela internet.",
+      "data": "04 de junho de 2014",
+      "duracaoPeriodoColeta":"7 dias",
+      "numeroQuestoes":"10",
+      "numeroRespostas":"509",
+      "perfilRespondentes":"homens, maiores de 18 anos, da regiao sul e sudeste do Brasil, das classes A, B e C.",
+      "descricaoPesquisa":"O Men's Market utilizou a plataforma da MindMiners com o intuito de aprofundar seu conhecimento sobre como os homens
+      encaram a compra de produtos de barbear por meio da internet. Por meio dos resultados da pesquisa foi possível identificar quais são os principais canais de venda que
+      os homens utilizam para comprar seus produtos de barbear e quais são os principais produtos utilizados ao fazer a barba, de acordo com classes sociais e idades.
+      Além disso, o Men's Market avaliou quais os melhores produtos que podem ser utilizados em vendas casadas com produtos de barbear."
+    },
+  ]
+}

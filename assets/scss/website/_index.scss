@@ -1,0 +1,251 @@
+#index{
+  #main-header{
+    background-image: url('../img/index/bg_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: $white;
+    height: 680px;
+
+    h2{
+      margin-top: 105px;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 300;
+    }
+    h4{
+      text-align: center;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 150%;
+    }
+  }
+
+  #client-line{
+    background-color: $white-light;
+    min-height: 0;
+    padding: 0;
+    height: 122px;
+
+    .clients-logo{
+      background-image:url('../img/index/clients_top.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 122px;
+    }
+  }
+
+  #dashboard{
+    background-color: $white;
+
+    .dashboard-phrase{
+      margin-top: 100px;
+      h3{
+        font-weight: 300;
+        font-size: 30px;
+      }
+      p{
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 30px;
+        line-height: 150%;
+      }
+    }
+  }
+
+  #solutions{
+    min-height: 0;
+    padding: 80px 0 100px;
+
+    .solutions-title{
+      font-weight: 300;
+      font-size: 30px;
+    }
+
+    .services-bar{
+      border-left:1.5px dashed $gray-lighter;
+      padding-left: 180px;
+    }
+
+    .solutions-paragraph{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 150%;
+
+      a {
+        color: $blue-light;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        outline: none;
+
+        &:hover {
+          text-decoration: none;
+          color: $blue-light-hover;
+          outline: none;
+        }
+        &:focus{
+          outline: none;
+        }
+      }
+    }
+  }
+
+  #services{
+    background-color: $white-light;
+    min-height: 0;
+    padding: 80px 0 60px;
+
+    .services-title{
+      font-weight: 300;
+      font-size: 30px;
+    }
+    .services-paragraph{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 120%;
+    }
+
+    .list-goals{
+      margin-top: 80px;
+      margin-left: 50px;
+
+      .item{
+        vertical-align: top;
+        text-align: center;
+        margin-right: 55px;
+
+        &:last-child{
+          margin-right: 0;
+        }
+
+        p{
+          margin-top: 20px;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 120%;
+        }
+      }
+    }
+  }
+
+  #clients-project{
+    background-color: $white;
+    min-height: 0;
+    padding: 80px 0 60px;
+
+    .clients-title{
+      font-weight: 300;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    .clients-paragraph{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 120%;
+    }
+  }
+
+  #testimonials{
+    min-height: 0;
+    padding: 40px 0 80px;
+
+    .testimonials{
+      .test-titles{
+        font-size: 20px;
+        font-weight: 300;
+        font-style: italic;
+        margin-top: 50px;
+        line-height: 150%;
+      }
+
+      .test-author-data{
+        margin-top: 40px;
+        margin-bottom: 30px;
+
+        img{
+          padding-right: 10px;
+        }
+
+        .test-author{
+          font-size: 15px;
+          font-style: italic;
+          color: $gray-dark;
+        }
+        .test-company{
+          font-size: 15px;
+          font-style: italic;
+          color: $gray-dark;
+          font-weight: 700;
+        }
+      }
+
+      border-bottom:1px dashed $gray-lighter;
+    }
+  }
+
+  #media-blog{
+    background-color: $white-light;
+    min-height: 0;
+    padding: 60px 0 80px;
+
+    .title-section{
+      font-weight: 300;
+      font-size: 20px;
+    }
+
+    .post{
+      img{
+        max-width: 220px;
+        max-height: 134px;
+      }
+      h4{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 150%;
+      }
+      .date, .comments{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+      }
+    }
+    .blog-info {
+      max-width: 190px;
+    }
+  }
+
+  @media (min-width: 1px) and (max-width: 767px){
+    #main-header{
+      height: 880px;
+    }
+    #client-line{
+      .clients-logo{
+        background-size: cover;
+      }
+    }
+    #dashboard{
+      min-height: 0;
+      padding: 10px 0 20px;
+
+      .dashboard-phrase{
+        margin-bottom: 25px;
+      }
+    }
+    #solutions{
+      min-height: 0;
+      padding: 10px 0 10px;
+
+      .services-bar{
+        padding-left: 10px;
+      }
+    }
+    #media-blog{
+      min-height: 0;
+      padding: 10px 0 20px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px){
+  }
+}

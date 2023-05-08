@@ -1,0 +1,44 @@
+.signin-page{
+  background-image: url('../img/dashboard/login/bg_login.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow-y: hidden;
+  position: relative;
+  color: $black-medium;
+  min-width: 767px !important;
+}
+
+p, h1{
+  margin: 0;
+}
+
+.form-signin{
+  background: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 465px;
+  padding: 30px;
+
+  h1{
+    text-align: center;
+  }
+
+  a{
+    color: $blue-light;
+
+    &:hover, &:focus{
+      color: $blue-light-hover;
+      text-decoration: none;
+    }
+
+    label{
+      padding-left: 15px;
+      vertical-align: middle;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
+
+

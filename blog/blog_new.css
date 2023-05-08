@@ -1,0 +1,198 @@
+body{
+  color: #464C58 !important;
+}
+
+body.home .avada-container.layout-thumbnails-on-side .flexslider {
+    height: auto !important;
+    width: 230px;
+}
+
+a{
+  color: #464C58;
+}
+a:hover, a:focus, a:active{
+  color: #69ACDF !important;
+}
+.footer-links{
+  font-size: 10px !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #B0B0B0;
+  margin-top:  25px !important;
+  line-height: 200%;
+}
+.fusion-social-networks .fusion-social-network-icon{
+  color:  #B0B0B0 !important;
+}
+.fusion-footer-widget-area .footer-links a:hover{
+  color: #80848C !important;
+}
+#main {
+  padding-top: 0 !important;
+}
+.post .fusion-meta-info {
+  border-color: transparent;
+  border-bottom: 1px dashed #D8D8D8;
+  margin-top:  30px;
+}
+#wrapper .search-table .search-field input, input[type="text"] .s {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#wrapper #main #post-element-test .fusion-post-content-container .post-content p{
+  position: relative;
+  border: 1px solid blue;
+  width: 420px;
+  margin-left: 340px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#wrapper #main .fusion-post-content > h2.entry-title,
+#wrapper #main .fusion-post-content > h2.entry-title a,
+#wrapper #main .post > h2.entry-title{
+  font-size: 30px;
+  font-weight:  300;
+  color: #464C58;
+}
+#wrapper #main .fusion-post-content > .entry-title{
+  /* line-height: 35px !important; alteração feita no painel Avada*/
+}
+#wrapper #main .fusion-post-content-container .post-content p{
+  font-size:  15px;
+  font-weight:  400;
+}
+
+#wrapper #main .fusion-blog-layout-medium .fusion-post-slideshow,
+#wrapper #main .fusion-blog-layout-medium-alternate .fusion-post-slideshow {
+  float: left;
+  margin-right: 25px;
+  width: 320px;
+  min-height:  250px;
+}
+#wrapper #main .fusion-content-widget-area .widget_recent_entries li,
+#wrapper #main .fusion-content-widget-area .widget_categories li{
+  border-color:  transparent;
+  border-bottom: 1px dashed #D8D8D8;
+  font-weight:  300;
+}
+#wrapper #main .fusion-content-widget-area .widget li a{
+  color:  #464C58 !important;
+  font-weight: 300 !important;
+}
+#wrapper #main .fusion-alignleft{
+  padding-bottom: 30px;
+}
+#wrapper #main .fusion-alignright{
+  display:  none;
+}
+#wrapper #main .widget-title{
+  color: #464C58;
+  font-size: 15px;
+  font-weight: 400;
+}
+#wrapper #main #sidebar #tag_cloud-2 .tagcloud a:hover{
+  color: white !important;
+  background-color: #69acdf;
+  cursor: pointer;
+}
+/*RETIRAR ATÉ O ESPAÇO*/
+
+#wrapper #main #sidebar #text31 #mm_submit, #mm_submit {
+  border:1px solid #e0dede !important;
+  background: white  !important;
+  border-radius: 4px !important;
+}
+#wrapper #main #sidebar #text31 #mm_submit:hover, #mm_submit:hover {
+
+}
+#wrapper #main #sidebar #text31 #wpcf7-f11869-o1 .wpcf7-form input[type="submit"], .wpcf7-submit {
+  border:1px solid #e0dede !important;
+  background: white  !important;
+  border-radius: 4px !important;
+}
+#wrapper #main #sidebar #text31 #wpcf7-f11869-o1 .wpcf7-form input[type="submit"]:hover, .wpcf7-submit:hover {
+  color: white !important;
+  background-color: #69acdf !important;
+  cursor: pointer  !important;
+}
+.wpcf7-form .wpcf7-mail-sent-ok {
+  background-color: white !important;
+  border: 1px solid #e0dede !important;
+  color: #69acdf !important;
+}
+
+
+/*RETIRAR ATÉ O ESPAÇO*/
+
+
+.searchform .search-table .search-button input[type="submit"]{
+  background: #69ACDF;
+  border: 1px solid #69ACDF;
+  color: #FFFFFF;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+#menu-main .menu-item span.menu-text{
+  color: #9C9CA2;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+#menu-main .menu-item span.menu-text:hover, #menu-main .menu-item span.menu-text:active, #menu-main .menu-item span.menu-text:focus{
+  color: #80848C;
+  outline: none;
+}
+#menu-main #menu-item-11851 span.menu-text{
+  color: #69ACDF;
+}
+#menu-main #menu-item-11851 span.menu-text:hover{
+  border-color: #69ACDF;
+}
+.fusion-main-menu > ul > li > a:hover {
+  border-color: #80848C;
+}
+.fusion-main-menu > ul > li {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.fusion-is-sticky .fusion-main-menu > ul > li {
+  padding-right: 15px;
+  padding-left: 15px;
+  outline: none;
+}
+.single-navigation {
+  border-top: 1px dashed #D8D8D8;
+  border-bottom: 1px dashed #D8D8D8;
+}
+.fusion-title .title-sep, .fusion-title.sep-underline, .product .product-border {
+  border-color: transparent;
+  border: 1px dashed #d8d8d8;
+}
+.fusion-meta-info .fusion-alignleft {
+  width: 100% !important;
+}
+
+
+/*iframe da newsletter*/
+
+
+#form-container #conversion section{
+  padding:  0 !important;
+}
+
+#form-container #conversion section #conversion form input #email{
+  font-size:  14px !important;
+}
+
+#form-container #conversion #conversion-form .actions .call_button #cf_submit{
+  width: 100px !important;
+  font-size: 12px !important;
+  font-family: 'Lato' !important;
+  letter-spacing: 1px !important;
+}
+
+#form-container #conversion #conversion-form .actions .call_button #cf_submit:hover{
+  color: white !important;
+  background-color: #69acdf !important;
+  cursor: pointer  !important;
+}

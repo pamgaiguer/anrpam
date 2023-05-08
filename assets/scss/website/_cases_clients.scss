@@ -1,0 +1,196 @@
+#cases-clients{
+  background-color: $white-dark;
+
+  #cases-description{
+    min-height: 0;
+    padding: 100px 0 0;
+  }
+
+  .case-main-img{
+    margin-top: -80px;
+    margin-bottom: 20px;
+  }
+
+  .panel{
+    border-radius: 0;
+  }
+
+  .back-link{
+    a{
+      font-size: 12px;
+      font-weight: 900;
+      color: $gray-dark;
+      text-transform: uppercase;
+
+      &:hover, &:focus, &:active{
+        color: $gray-light;
+        text-decoration: none;
+        outline: none;
+      }
+    }
+  }
+
+  .back-link-bottom{
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+    a{
+      font-size: 12px;
+      font-weight: 700;
+      color: $gray-dark;
+      text-transform: uppercase;
+
+      &:hover, &:focus, &:active{
+        color: $gray-light;
+        text-decoration: none;
+        outline: none;
+      }
+    }
+  }
+
+  .case-card{
+    background: $white;
+    border: none;
+    box-shadow: 0 2px 0 0 #E1E0E0;
+
+    .case-data{
+      color: $gray-dark;
+      font-weight: 900;
+      font-size: 10px;
+    }
+    .panel-heading{
+      background-color: white;
+      padding: 40px 40px 0 40px;
+    }
+    .gray-line{
+      border-bottom:2px dashed $gray-lighter;
+    }
+  }
+
+  .case-img{
+    margin-top: -95px;
+    margin-bottom: 40px;
+  }
+
+  .case-title{
+    h2{
+      font-size: 25px;
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+
+    .list-inline{
+      text-align: right;
+    }
+
+    ul>li{
+      font-size: 12px;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      padding-left: 15px;
+      padding-top: 5px;
+      color: $gray-light-3;
+
+      & > strong{
+        text-transform: uppercase;
+        color: $black-medium;
+        font-size: 10px;
+      }
+    }
+  }
+  .case-text{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 100px;
+  }
+
+  .case-description{
+    margin-bottom: 100px;
+
+    .dl-horizontal{
+      margin-top: 60px;
+
+      dt, dd{
+        padding-bottom: 5px;
+        padding-top: 5px;
+      }
+
+      hr{
+        border:1px dashed $gray-lighter;
+        margin: 0;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 18px;
+      }
+
+      dt{
+        text-transform: uppercase;
+        font-size: 10px;
+        color: $black-medium;
+        text-overflow: initial;
+        width: 255px;
+        margin-right: 60px;
+      }
+      dd{
+        font-size: 12px;
+        color: $gray-light-3;
+      }
+    }
+
+    .case-title{
+      .gray-line{
+        margin-top: 100px;
+      }
+
+      h3{
+        font-size: 25px;
+        font-weight: 300;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        line-height: 150%;
+      }
+
+      p{
+        line-height: 150%;
+        font-size: 15px;
+        font-weight: 400;
+      }
+    }
+
+    .case-testimonial{
+      h4{
+        font-size: 20px;
+        font-weight: 300;
+        font-style: italic;
+        padding: 80px 0 60px;
+        line-height: 150%;
+      }
+
+      .case-author-data{
+        margin-top: 40px;
+        margin-bottom: 30px;
+
+        img{
+          padding-right: 10px;
+          width: 60px;
+          height: 60px;
+          border-radius: 30px;
+        }
+
+        .case-author{
+          font-size: 15px;
+          font-style: italic;
+          color: $gray-dark;
+        }
+        .case-company{
+          font-size: 15px;
+          font-style: italic;
+          color: $gray-dark;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

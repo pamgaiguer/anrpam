@@ -1,0 +1,378 @@
+#services-page{
+  #main-header{
+    background-image: url('../img/services/bg_servicos.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: $white;
+    height: 680px;
+
+    h2{
+      margin-top: 115px;
+      text-align: center;
+      font-size: 40px;
+      font-weight: 300;
+    }
+    h4{
+      text-align: center;
+      font-weight: 400;
+      font-size: 17px;
+      margin-bottom: 50px;
+      line-height: 150%;
+    }
+    img{
+      position: relative;
+      z-index: 1000;
+    }
+  }
+
+  #agileResearch{
+    background-color: $white-dark;
+    min-height: 0;
+    padding: 60px 0 100px;
+
+    h2{
+      font-weight: 300;
+      font-size: 30px;
+      text-align: center;
+    }
+    h4{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 120%;
+      text-align: center;
+    }
+
+    .list-img-platform{
+      margin-top: 100px;
+
+      .img-list{
+        vertical-align: top;
+
+        figcaption{
+          margin-top: 20px;
+          text-align: center;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 150%;
+        }
+      }
+    }
+  }
+
+  #actuationArea{
+    min-height: 0;
+    padding: 60px 0 0;
+    margin-bottom: -83px;
+
+    h2{
+      font-weight: 300;
+      font-size: 30px;
+      margin: 0;
+    }
+    h4{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 150%;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+    .nav-tabs{
+      border-bottom: transparent;
+      margin-bottom: 20px;
+      padding: 20px 0;
+      position: relative;
+      z-index: 1000;
+    }
+    .nav-tabs li a {
+      border: none;
+      color: $gray-dark;
+      font-weight: 700;
+      font-size: 10px;
+      text-transform: uppercase;
+      margin-right: 60px;
+      margin-bottom: 40px;
+      padding: 0;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 35px;
+    }
+    .nav-tabs > li > a{
+      //border-radius: 0;
+    }
+    .nav-tabs li.active a {
+      background: transparent;
+      color: $blue-light;
+      border: none;
+      border-bottom: 0;
+      border-bottom: 3px solid $blue-light;
+      padding-bottom: 35px;
+      -webkit-border-top-left-radius: 0px;
+      -webkit-border-top-right-radius: 0px;
+      -moz-border-radius-topleft: 0px;
+      -moz-border-radius-topright: 0px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+  }
+
+  #actuationAreaCards{
+    min-height: 0;
+    padding: 80px 0px 80px;
+    background-color: $white-dark;
+    border-top: 2px solid rgba(232, 232, 232, 0.8);
+    border-bottom: 1px solid rgba(232, 232, 232, 0.8);
+
+    .tab-content{
+      .panel-card{
+        border-radius: 0;
+        width: 270px;
+        height: 230px;
+        border: none;
+        border-left:5px solid #CCC;
+        margin-right: 30px;
+        box-shadow: 0 2px 0 0 #E1E0E0;
+        padding: 30px;
+
+        .panel-body{
+          padding: 0;
+        }
+
+        h3{
+          font-size: 15px;
+          font-weight: 700;
+          margin-top: 0;
+        }
+        p{
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 150%;
+        }
+      }
+    }
+
+    .card-border-1{
+      border-left:5px solid #F46F7D !important;
+    }
+    .card-border-2{
+      border-left:5px solid #FFCE54 !important;
+    }
+    .card-border-3{
+      border-left:5px solid #6D537A !important;
+    }
+    .card-border-4{
+      border-left:5px solid #53D3B1 !important;
+    }
+    .card-border-5{
+      border-left:5px solid #F5B378 !important;
+    }
+    .card-border-6{
+      border-left:5px solid #F57156 !important;
+    }
+  }
+
+  #cellphone{
+    min-height: 0;
+    padding: 80px 0 120px;
+
+    h2{
+      font-weight: 300;
+      font-size: 30px;
+      margin-top: 100px;
+    }
+
+    h4{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 150%;
+    }
+
+    .cellphone-text{
+      margin-left: 90px;
+    }
+
+    .list-downloads{
+      li{
+        margin-right: 25px;
+        margin-top: 20px;
+        a{
+          font-size: 10px;
+          font-weight: 700;
+          color: $blue-light;
+          text-transform: uppercase;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          outline: none;
+
+          &:hover {
+            text-decoration: none;
+            color: $blue-light;
+            outline: none;
+          }
+          &:focus{
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+
+  #charts{
+    h2{
+      font-weight: 300;
+      font-size: 30px;
+      text-align: center;
+    }
+    h4{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 150%;
+      text-align: center;
+    }
+
+    .charts-script{
+      margin-top: 100px;
+
+      h4{
+        margin-bottom: 30px;
+      }
+      #genreChart, #ageChart, #socialClassChart, #residenceRegionChart{
+      }
+      .chart-legend{
+        margin-top: 30px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: 15%;
+      }
+
+      .legend-circle{
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        border-radius: 50%;
+        text-indent: -9999px;
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+      }
+      .color1{
+        background-color: #4FC1E9 !important;
+      }
+      .color2{
+        background-color: #F46F7D !important;
+      }
+      .color3{
+        background-color: #FFCE54 !important;
+      }
+      .color4{
+        background-color: #6D537A !important;
+      }
+      .color5{
+        background-color: #53F3B1 !important;
+      }
+      .color6{
+        background-color: #F5B378 !important;
+      }
+    }
+  }
+
+  #create-account{
+    min-height: 0;
+    padding: 60px 0 40px;
+    background: $white-dark;
+
+    .panelbg{
+    }
+
+    h4{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 150%;
+
+      .btn{
+        margin-left: 20px;
+      }
+    }
+    .panelbook{
+      p{
+        margin-top: 20px;
+        font-weight: 900;
+        font-size: 10px;
+
+        a{
+          color: $blue-light;
+          text-transform: uppercase;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+          outline: none;
+
+          &:hover {
+            text-decoration: none;
+            color: $blue-light;
+            outline: none;
+          }
+          &:focus{
+            outline: none;
+          }
+
+          img{
+            vertical-align: top;
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  #clients-project{
+    background-color: $white;
+    min-height: 0;
+    padding: 80px 0 100px;
+
+    .clients-title{
+      font-weight: 300;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+    .clients-paragraph{
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 120%;
+    }
+  }
+
+  @media (min-width: 1px) and (max-width: 767px){
+
+    #agileResearch {
+      .list-img-platform {
+        .img-list{
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    #cellphone  {
+      .cellphone-text{
+        margin-left: 10px;
+      }
+    }
+
+    #charts{
+      .charts-script{
+
+        .chart-legend{
+          margin-left: 20%;
+        }
+        #genreChart, #ageChart, #socialClassChart, #residenceRegionChart{
+          margin-left: 10%;
+          margin-right: 15%;
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px){}
+
+}

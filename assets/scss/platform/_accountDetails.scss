@@ -1,0 +1,251 @@
+.account-details {
+  padding-top: 40px;
+
+  [class^="dripicons-"]:before,
+  [class*=" dripicons-"]:before {
+    margin-right: 10px;
+  }
+
+  .panel {
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+    box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+  }
+
+  .panel-default {
+    border-color: transparent;
+  }
+
+  .panel-body {
+    padding: 30px;
+  }
+
+  .form-group {
+    label {
+      text-transform: uppercase;
+      font-size: 10px;
+    }
+  }
+
+  input[disabled]{
+    color: $gray-dark;
+  }
+
+  .switch {
+    float: left;
+    margin-bottom: 15px;
+
+    .switch-label {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .btn-validate {
+    padding-top: 40px;
+    margin-left: -25px;
+  }
+
+  .tt-dropdown-menu {
+    background-color: white;
+    border: 1px solid $gray-lighter;
+    border-radius: 6px;
+    width: 545px;
+  }
+
+  .tt-hint {
+    display: none;
+  }
+
+  .tt-dataset-Empresas {
+    margin-left: 15px;
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    margin-top: -30px;
+    padding-top: 0;
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    padding-top: 60px;
+  }
+}
+
+.notifications-page {
+  padding-top: 40px;
+
+  .nav-side {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    ul {
+      li{
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 7px;
+    background: $gray-dark;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: $gray-dark;
+  }
+
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: $gray-dark;
+  }
+
+  .panel {
+    border-radius: 0;
+    -webkit-box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+    box-shadow: 0 2px 0px 1px rgba(232, 232, 232, 0.8);
+  }
+
+  .panel-default {
+    border-color: transparent;
+  }
+
+  .panel-body {
+    padding: 30px;
+  }
+
+  .nav-pills > .notification-list.active > a {
+    color: $black-medium;
+    background-color: white;
+
+    &:hover, &:focus {
+      color: #fff;
+      background-color: $blue-light;
+    }
+  }
+
+
+  .notification-list {
+    background-color: $white-dark;
+
+    &.active > a{
+      background: white;
+      color: $black-medium;
+
+      .media{
+        .media-left{
+          .icon{
+            color: $gray-dark;
+          }
+        }
+        .media-body{
+          .media-heading, .media-text{
+            color: $black-medium;
+          }
+        }
+        .media-right{
+          strong time{
+            color: $gray-dark;
+          }
+        }
+      }
+
+
+    }
+
+    a{
+      &:hover, &:focus{
+        background: $blue-light;
+        color: white;
+        opacity: 1;
+        cursor: pointer;
+
+        .media{
+          .media-left{
+            .icon{
+              color: white;
+            }
+          }
+          .media-body{
+            .media-heading, .media-text{
+              color: white;
+            }
+          }
+          .media-right{
+            strong time{
+              color: white;
+            }
+          }
+        }
+      }
+    }
+
+    .media {
+      .media-left {
+        padding-right: 15px;
+        .icon {
+          color: $gray-dark;
+        }
+      }
+
+      time {
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: 700;
+        color: $gray-light-3;
+      }
+
+      .media-heading {
+        font-size: 15px;
+        font-weight: 700;
+        color: $black-medium;
+      }
+
+      .media-text {
+        font-size: 12px;
+        font-weight: 400;
+        color: $black-medium;
+        line-height: 1.3;
+      }
+    }
+  }
+
+  .notifications-panel {
+    .panel {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+    }
+
+    h4 {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 400;
+    }
+
+    time {
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 700;
+      color: $gray-light-3;
+    }
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    margin-top: -30px;
+    padding-top: 0;
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    padding-top: 60px;
+  }
+}
